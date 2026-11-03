@@ -1,0 +1,15 @@
+{
+  "name": "紫色小伙伴 · 示例皮肤",
+  "spritesheet": "spritesheet.svg",
+  "frameWidth": 160,
+  "frameHeight": 160,
+  "animations": {
+    "idle": { "row": 0, "frames": 2, "fps": 2 },
+    "thinking": { "row": 1, "frames": 2, "fps": 3 },
+    "working": { "row": 2, "frames": 2, "fps": 6 },
+    "permission": { "row": 3, "frames": 2, "fps": 3 },
+    "celebrate": { "row": 4, "frames": 2, "fps": 5 },
+    "error": { "row": 5, "frames": 2, "fps": 2 },
+    "retry": { "row": 6, "frames": 2, "fps": 3 }
+  }
+}

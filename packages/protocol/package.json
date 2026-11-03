@@ -1,0 +1,25 @@
+{
+  "name": "@opencode-pet/protocol",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "exports": {
+    ".": {
+      "bun": "./src/index.ts",
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "bun build ./src/index.ts --outdir ./dist --target bun --format esm && tsc --project tsconfig.json --emitDeclarationOnly",
+    "typecheck": "tsc --project tsconfig.json --emitDeclarationOnly",
+    "test": "bun test",
+    "check": "bun run typecheck && bun run test"
+  },
+  "devDependencies": {
+    "typescript": "^5.9.3"
+  }
+}

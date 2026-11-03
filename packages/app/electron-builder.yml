@@ -1,0 +1,25 @@
+appId: com.opencode.pet
+productName: OpenCode Pet
+asar: true
+directories:
+  output: release
+  buildResources: resources
+files:
+  - out/**/*
+  - package.json
+extraResources:
+  - from: resources/tray.png
+    to: tray.png
+  - from: resources/skins
+    to: skins
+win:
+  target:
+    - target: nsis
+      arch:
+        - x64
+  artifactName: "${productName}-${version}-${arch}.${ext}"
+nsis:
+  oneClick: false
+  allowToChangeInstallationDirectory: true
+  createDesktopShortcut: true
+  createStartMenuShortcut: true

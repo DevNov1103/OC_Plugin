@@ -1,0 +1,14 @@
+{
+  "extends": "../../tsconfig.base.json",
+  "compilerOptions": {
+    "lib": ["ES2022", "DOM"],
+    "types": ["node", "electron"],
+    "baseUrl": ".",
+    "paths": {
+      "@opencode-pet/protocol": ["../protocol/src/index.ts"],
+      "@app/*": ["src/*"]
+    },
+    "noEmit": true
+  },
+  "include": ["electron.vite.config.ts", "src/**/*.ts", "src/**/*.tsx"]
+}

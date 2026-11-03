@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="320" height="1120" viewBox="0 0 320 1120">
+  <defs>
+    <g id="pet">
+      <path d="M41 64 34 24 67 52 M97 52 126 25 127 70" fill="#b6a0ff" stroke="#493966" stroke-width="4" stroke-linejoin="round"/>
+      <path d="M34 76c4-30 89-41 97 7l3 30c4 26-20 36-54 36-33 0-50-14-48-35z" fill="currentColor" stroke="#493966" stroke-width="4"/>
+      <ellipse cx="83" cy="112" rx="28" ry="25" fill="#f5efff"/>
+      <circle cx="60" cy="78" r="5" fill="#30253e"/><circle cx="104" cy="78" r="5" fill="#30253e"/>
+      <path d="M75 92q9 8 17 0" fill="none" stroke="#30253e" stroke-width="3" stroke-linecap="round"/>
+      <ellipse cx="47" cy="92" rx="8" ry="4" fill="#ffa9cf"/><ellipse cx="117" cy="92" rx="8" ry="4" fill="#ffa9cf"/>
+    </g>
+  </defs>
+  <g color="#ad92ed"><use href="#pet"/><use href="#pet" transform="translate(160 -3)"/></g>
+  <g color="#95b9f0"><use href="#pet" transform="translate(0 160)"/><use href="#pet" transform="translate(160 157)"/><text x="125" y="187" fill="#e5efff" font-size="25">?</text></g>
+  <g color="#a794f5"><use href="#pet" transform="translate(0 320)"/><use href="#pet" transform="translate(160 313)"/><path d="m134 337 8 12-12 7" fill="none" stroke="#77efcb" stroke-width="5"/></g>
+  <g color="#e5c16d"><use href="#pet" transform="translate(0 480)"/><use href="#pet" transform="translate(160 474)"/><text x="133" y="512" fill="#ffd76b" font-size="30">!</text></g>
+  <g color="#82d8b6"><use href="#pet" transform="translate(0 640)"/><use href="#pet" transform="translate(160 630)"/><path d="m137 650 3 9 10 1-8 6 2 10-7-6-9 5 2-10-7-6 10-1z" fill="#fff1a3"/></g>
+  <g color="#e29cb0"><use href="#pet" transform="translate(0 800)"/><use href="#pet" transform="translate(160 803)"/><path d="m136 821 5 10-5 10" fill="none" stroke="#fa99ac" stroke-width="5"/></g>
+  <g color="#deac78"><use href="#pet" transform="translate(0 960)"/><use href="#pet" transform="translate(160 955)"/><path d="M139 979a12 12 0 1 1-8-11m-1-4 2 7 6-2" fill="none" stroke="#ffe1a6" stroke-width="4"/></g>
+</svg>

@@ -1,0 +1,17 @@
+{
+  "name": "Boba",
+  "spritesheet": "spritesheet.webp",
+  "frameWidth": 192,
+  "frameHeight": 208,
+  "animations": {
+    "idle": { "row": 0, "frames": 6, "fps": 5.5 },
+    "thinking": { "row": 8, "frames": 6, "fps": 5.8 },
+    "working": { "row": 7, "frames": 6, "fps": 7.3 },
+    "permission": { "row": 6, "frames": 6, "fps": 5.9 },
+    "celebrate": { "row": 4, "frames": 5, "fps": 6.0 },
+    "error": { "row": 5, "frames": 8, "fps": 6.6 },
+    "retry": { "row": 3, "frames": 4, "fps": 5.7 },
+    "drag-left": { "row": 2, "frames": 8, "fps": 7.5 },
+    "drag-right": { "row": 1, "frames": 8, "fps": 7.5 }
+  }
+}
