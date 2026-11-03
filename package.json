@@ -1,0 +1,33 @@
+{
+  "name": "opencode-pet",
+  "version": "0.3.0",
+  "private": true,
+  "type": "module",
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "postinstall": "node --use-system-ca scripts/ensure-electron.mjs",
+    "dev": "bun scripts/ensure-electron.mjs && bun run --cwd packages/app dev",
+    "start": "bun scripts/ensure-electron.mjs && bun run --cwd packages/app start",
+    "dist": "bun scripts/ensure-electron.mjs && bun run --cwd packages/app dist",
+    "demo": "bun scripts/demo-instance.ts",
+    "build": "bun scripts/workspaces.mjs build",
+    "typecheck": "bun scripts/workspaces.mjs typecheck",
+    "test": "bun scripts/workspaces.mjs test",
+    "check": "bun scripts/workspaces.mjs check",
+    "install:plugin": "bun scripts/install-plugin.mjs"
+  },
+  "devDependencies": {
+    "@types/node": "^22.15.0",
+    "typescript": "^5.8.3"
+  },
+  "trustedDependencies": [
+    "@swc/core",
+    "electron"
+  ],
+  "engines": {
+    "node": ">=22"
+  },
+  "packageManager": "bun@1.3.14"
+}
